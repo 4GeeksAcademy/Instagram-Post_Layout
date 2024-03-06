@@ -1,0 +1,59 @@
+body{
+    background: black;
+}
+button{
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
+}
+.instagram-post{
+    width: 465px;
+    height: 650px;
+    background: white;
+    margin: auto;
+    margin-top: 10%;
+}
+.Post-header{
+    height: 55px;
+    display: flex; justify-content: space-between; align-items: center;
+}
+.logo_text{
+    display: flex; align-items: center;padding-left: 0px;
+}
+/* Intento de menú deplegable -- Dropdown Content (Hidden by Default) 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }*/
+.photo{
+    height: 350px;
+    background-image: url("https://fastly.picsum.photos/id/872/200/200.jpg?hmac=m0AwAUFkEiEz2KW58n6a5RVkKaClHNylfppYjE3a0v4");
+    background-size:cover;
+}
+.footer-buttons{
+    display: flex; justify-content: space-between; align-items: center;
+}
+.left-logos {
+    display: flex;
+    font-size: xx-large;
+    align-items: center;
+}
+.paper_plane{
+    padding: 13px;
+}
+.right-logos {
+    display: flex;
+    font-size: xx-large;
+    align-items: center;
+    margin-right: 5px;
+}
+.footer-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-left: 10px;
+    margin-top: 0px;
+}
